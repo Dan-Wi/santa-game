@@ -1,5 +1,5 @@
 # About
-Java course assignment aiming to aiming to exploit threads.
+Java course assignment aiming to exploit threads.
 
 # Description
 
