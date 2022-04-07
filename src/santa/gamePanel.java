@@ -37,7 +37,7 @@ public class gamePanel extends JPanel {
     }
     private Repaint repainter;
 
-    static final int NUMBER_OF_CHILDREN = 12;
+    static final int NUMBER_OF_CHILDREN = 16;
 
     private Shape[][] grid;
     Color backgroundColor = Color.LIGHT_GRAY;

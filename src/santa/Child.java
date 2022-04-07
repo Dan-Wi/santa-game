@@ -20,10 +20,10 @@ public class Child implements Runnable{
 
     private Random numberGenerator;
 
-    private static final int MAX_ACTIVITY_TIME = 8000;
-    private static final int MIN_ACTIVITY_TIME = 4000;
+    private static final int MAX_ACTIVITY_TIME = 5000;
+    private static final int MIN_ACTIVITY_TIME = 2500;
     private static final int SIGHT_DISTANCE = 3;
-    private static final int CHASE_MODE_MILLISECONDS_PER_MOVE = 1000;
+    private static final int CHASE_MODE_MILLISECONDS_PER_MOVE = 500;
 
     public Child(Position position, Board board, SantaClaus santa) {
         numberGenerator = new Random();
